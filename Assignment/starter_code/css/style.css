@@ -393,5 +393,29 @@ footer p {
     display:inline-block;
   }
 
+/*Begins Blog CSS*/
+  #main{
+    margin-top: 25px;
+  }
+
+  .post {
+    font-size: 1em;
+    padding:10px;
+  }
+
+  .post h2{
+    font-size: 1em;
+    max-width: 360px;
+  }
+
+  img{
+    max-width: 360px;
+  }
+
+  .post p{
+    max-width: 360px;
+    font-size: .55em;
+  }
+
 }
 
