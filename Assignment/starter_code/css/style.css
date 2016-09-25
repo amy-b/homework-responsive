@@ -288,52 +288,109 @@ footer p {
   font-weight: 600;
 }
 
+
 @media screen and (max-width: 768px){
-  body{
-    font-size: 16px;
-  }
-
-  ul {
-    height:0em; 
-    transition: all 1s;
-  }
-
-  h1{
-    padding-top:5px;
-    margin-top:0px;
-  }
-
-  ul li {
-    display:block;
-  }
-
-  nav, h1 {
-    float:none;
-  }
-
-  header ul li:first-child{
-    position:absolute;
-    top:.70em;
-    right:1em;
-  }
-
-  header .line { 
-      width:2em;
-      height:3px;
-      background:yellow;
-      margin-top:.25em;
-      border:1px solid yellow;
-    }
-
-   .open {
-    height:20em; 
+  header{
+    padding:0px;
   }
   
+  h1{
+    padding-left: .2em;
+  }
+
+  ul{
+    height:0em; 
+    transition: all 1s; 
+    }
+
+  header nav ul li:first-child{ 
+    position:absolute; 
+    margin: 0px;
+    top:1em; 
+    right:.5em; 
+  }
+
+  .line { 
+    width:2em;
+    height:3px;
+    background:yellow;
+    margin-top:.25em;
+    border:1px solid yellow;
+  }
+  
+  .open {
+    height:5em; 
+}
+
+    nav ul li {
+    display:block;
+    text-align: center;
+  }
+
   #hero {
-    width:100%;
-    margin:0 auto;
-    float:none;
-    
+    height:20%;
+    background: url(../images/header_bg.jpg) no-repeat center #131e27;
+  }
+
+
+  #hero h2 {
+    font-size: 1em;
+    max-width: 350px;
+    text-align: center;
+    margin: 50px 0 40px;
+  }
+
+  .button{
+    margin:0px 5%;
+    margin-bottom: 25px;
+  }
+
+  #benefits{
+    padding: .5em 5%;
+  }
+
+  h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  #benefits p{
+    max-width: 350px;
+    font-size: .60em;
+  }
+
+  #benefits ul li{
+    display:none;
+  }
+
+  #testimonial{
+    height:40%;
+    background:url(../images/testimonial_bg.jpg) no-repeat center #071324;;
+  }
+
+  blockquote{
+    font-size: .75em;
+    max-width: 350px;
+    margin:0 0;
+    margin-left: 2%;
+  }
+  
+  footer{
+    padding:40px 0 50px;
+  }
+
+  footer .logo{
+    margin-bottom: 0;
+  }
+
+  footer p{
+    padding-bottom: 30px;
+    display:inline-block;
+  }
+
+  footer ul li{
+    padding-top: 45px;
+    display:inline-block;
   }
 
 }
